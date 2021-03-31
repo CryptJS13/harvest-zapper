@@ -1,0 +1,23 @@
+{
+  "name": "harvest-zapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hardhat.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasperSlimmens/harvest-zapper.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.1",
+    "@nomiclabs/hardhat-truffle5": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/contracts": "^3.4.0",
+    "@openzeppelin/contracts-upgradeable": "^4.0.0",
+    "@openzeppelin/test-helpers": "^0.5.10",
+    "hardhat": "^2.1.2",
+    "hardhat-gas-reporter": "^1.0.4"
+  }
+}
