@@ -5,7 +5,7 @@
   "main": "hardhat.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JasperSlimmens/harvest-zapper.git"
+    "url": "git+https://github.com/harvestfi/zapper.git"
   },
   "license": "ISC",
   "dependencies": {
