@@ -12,10 +12,11 @@ The concept is explained in this [file](https://docs.google.com/document/d/1QiwM
 - [x] Gather existing Zapper contracts
 
 ### Trade-routing
-- [ ] Research approaches and possibilities
-- [ ] ...
+- [x] Research approaches and possibilities: Decided on using UL with ETH as only input to start.
+- [ ] Gather UL contracts
 
 ### Contracts
+- [ ] Modify UL contracts
 - [ ] Modify Uniswap ZapIn
 - [ ] Modify Sushiswap ZapIn
 - [ ] Modify Curve ZapIn
