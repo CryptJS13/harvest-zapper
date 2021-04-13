@@ -23,4 +23,15 @@ interface IMooniswap {
         external
         payable
         returns (uint256 fairSupply, uint256[2] memory receivedAmounts);
+
+    function swap(
+      address src,
+      address dst,
+      uint256 amount,
+      uint256 minReturn,
+      address referral
+      )
+      external
+      payable
+      returns (uint256 result);
 }

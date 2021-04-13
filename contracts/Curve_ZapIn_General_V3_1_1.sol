@@ -38,7 +38,7 @@ import "./interface/curve/ICurveSwap.sol";
 import "./interface/curve/ICurveEthSwap.sol";
 import "./interface/yERC20.sol";
 import "./interface/IWETH.sol";
-import "./base/ZapInBaseV1.sol";
+import "./base/zapper/ZapInBaseV1.sol";
 
 
 contract Curve_ZapIn_General_V3_1_1 is ZapInBaseV1 {

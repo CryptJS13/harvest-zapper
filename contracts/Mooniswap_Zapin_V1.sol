@@ -36,7 +36,7 @@ import "@openzeppelin/contracts/utils/Address.sol";
 import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
 import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 import "./interface/mooniswap/IMooniswap.sol";
-import "./base/ZapBaseV1.sol";
+import "./base/zapper/ZapBaseV1.sol";
 
 contract Mooniswap_ZapIn_V1 is ZapBaseV1 {
   using SafeMath for uint256;
